@@ -1,0 +1,40 @@
+body
+{
+    margin: 0;
+    padding: 0%;
+}
+.email-container
+{
+    background-color: #FFF4D6;
+    width: 65%;
+    height: 30%;
+    margin: 0% auto;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.email-itames
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.email{
+    width:200px;
+    padding: .8rem;
+    background-color: rgb(208, 212, 215);
+    border-bottom: 1px solid red;
+}
+input:focus
+
+.submit
+{
+    text-decoration: none;
+    border: none;
+    background-color: tomato;
+    padding: .8rem;
+    margin:-4px;
+}

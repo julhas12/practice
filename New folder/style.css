@@ -1,0 +1,50 @@
+body {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contaner {
+    display: flex;
+}
+
+.div1 {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.orange {
+    color: orange;
+}
+
+.div1 p {
+    text-align: center;
+    padding: 10px 15px;
+    opacity: 70%;
+}
+
+.div1 a {
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(to right, orange, rgb(228, 64, 10));
+}
+
+.div2 {
+    width: 50%;
+}
+
+.images1 {
+    width: 100%;
+    position: relative;
+}
+
+.images {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
