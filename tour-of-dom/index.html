@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of Dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>welcome To Dom</h1>
+    </header>
+    <main id="main-container">
+        <h1>My awesome Dom de baba</h1>
+        <ul>
+            <li>jalali set </li>
+            <li>shafayet</li>
+            <li>bonobash</li>
+        </ul>
+        <section class="fruits-container">
+            <h1 id="fruits-title">Fruits i like</h1>
+            <ul>
+                <li>Apple </li>
+                <li>Banana</li>
+                <li>carrot</li>
+            </ul>
+        </section>
+        <section id="places-container" class="font">
+            <h1 id="place-title">Places i like to Visit</h1>
+            <ul id="places-list">
+                <li class="importent-places">pahar </li>
+                <li class="importent-places">Jhorna</li>
+                <li class="importent-places">Nodi</li>
+                <li class="other-places">shagor</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="js/dom.js"></script>
+    <script src="js/append.js"></script>
+    <script src="js/styleinjs.js"></script>
+    <script>
+        const allHeading = document.getElementsByTagName('h1');
+        for (const h1 of allHeading) {
+            // console.log(h1.innerText)
+        }
+
+        const places = document.getElementsByClassName('importent-places');
+        for(const place of places){
+            // console.log(place.innerText)s
+        }
+
+        // querySelecttorAll
+        const someLi = document.querySelectorAll('.fruits-container li')
+        console.log(someLi)
+        for(const li of someLi){
+            // console.log(li.innerText);
+        }
+    </script>
+</body>
+
+</html>
